@@ -1,0 +1,15 @@
+{
+  "name": "rxjs-symbol-typedef",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "license": "ISC",
+  "scripts": {
+    "compile-default": "tsc --noEmit ./src/index.ts",
+    "compile-workaround": "tsc --noEmit ./src/index-no-error.ts"
+  },
+  "dependencies": {
+    "rxjs": "^6.6.6",
+    "typescript": "^4.2.3"
+  }
+}
